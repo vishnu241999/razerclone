@@ -1,0 +1,567 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 60.8px;
+    background-color: black;
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.subheader{
+    width: 1200px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.razerclass{
+    color:#888;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.razerclass:hover{
+    text-decoration: underline;
+}
+.razerstore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.razersearchlogo{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+}
+.logoclass{
+    color: white;
+}
+.razersearchlogo{
+    background-color: black;
+    cursor: pointer;
+}
+.innerheader{
+    width: 100%;
+    height: 41px;
+    background-color: rgb(102, 100, 100);
+    padding-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.reward{
+    color: white;
+    text-decoration: none;
+}
+.contentbody{
+    width: 100%;
+    height: 700px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contimg{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin: 0;
+    object-fit: cover;
+}
+.innerdiv1{
+    position: relative;
+}
+.innerdiv2{
+    position: relative;
+}
+.innerdiv3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div3sub{
+    position: relative;
+}
+.div3sub2{
+    position: relative;
+}
+.razerblade{
+    font-size: -webkit-xxx-large;
+    color: white;
+    font-family: roboto;
+    cursor: pointer;
+}
+.new4k{
+    color: white;
+    font-family: roboto;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.buy{
+    color: white;
+    margin-left: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.buy:hover{
+    text-decoration: underline;
+}
+.learnmore{
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.learnmore:hover{
+    text-decoration: underline;
+}
+.contentbody2{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hellblade{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: absolute;
+    cursor: pointer;
+}
+.senua{
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-size: -webkit-xxx-large;
+    margin-top: 72px;
+    padding-left: 44px;
+    cursor: pointer;
+}
+.gamepass{
+    position: relative;
+    color: white;
+    padding-left: 130px;
+    font-family: roboto;
+    font-weight: 300;
+    cursor: pointer;
+}
+.shopnow{
+    position: relative;
+    color: white;
+    padding-left: 52p;
+    padding-left: 271px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+.shopnow:hover{
+    text-decoration: underline;
+}
+.contentbody3{
+    width: 100%;
+    height: 700px;
+    background-color: orange;
+}
+.kiyopro{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: absolute;
+}
+.contentbody3{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.razerkiyo{
+    position: relative;
+    color: white;
+    font-family: roboto;
+    font-size: 50px;
+}
+.large{
+    position: relative;
+}
+.contentbody3innerdiv2{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    position: relative;
+    width: 50%;
+    text-align: end;
+}
+.div2{
+    position: relative;
+    width: 50%;
+}
+.learnmore2{
+    cursor: pointer;
+    color: white;
+    font-weight: lighter;
+}
+.learnmore2:hover{
+    text-decoration: underline;
+}
+.buy2{
+    cursor: pointer;
+    color: white;
+    padding-left: 50px;
+    font-weight: lighter;
+}
+.buy2:hover{
+    text-decoration: underline;
+}
+.large{
+    position: relative;
+    color: white;
+    padding-left: 44px;
+    font-family: roboto;
+    font-weight: 300;
+    cursor: pointer;
+}
+.contentbody4{
+    width: 100%;
+    height: 570px;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: row;
+}
+.body4div1{
+width: 50%;
+align-items: center;
+}
+.whiteedition{
+    width: 50%;
+    height: 570px;
+    object-fit: cover;
+    position: absolute;
+}
+.body4div2{
+    width: 50%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skinsblade{
+    width: 50%;
+    height: 570px;
+    object-fit: cover;
+    position: absolute;
+}
+.edition{
+    position: relative;
+    padding-left: 133px;
+    margin-top: 75px;
+    font-family: 'Roboto';
+    line-height: 12px;
+    font-size: 41px;
+    font-size: -webkit-xxx-large;
+    font-stretch: -38px;
+    font-weight: 400;
+}
+.collection{
+    position: relative;
+    font-weight: 100;
+    padding-left: 197px;
+
+}
+.more{
+    position: relative;
+    padding-left: 315px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.more:hover{
+    text-decoration: underline;
+}
+.freshskin{
+    color: white;
+    position: relative;
+    padding-top: 52px;
+    line-height: 1px;
+    font-family: roboto;
+    font-size: 35px;
+}
+.skinspecial{
+    position: relative;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 3px;
+    font-weight: 300;
+}
+.shop1{
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 1px;
+    cursor: pointer;
+}
+.shop1:hover{
+    text-decoration: underline;
+}
+.contentbody5{
+    width: 100%;
+    height: 570px;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: row;
+}
+.body5div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body5div2{
+    background-color: aqua;
+    width: 50%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kishiultra{
+    width: 50%;
+    height: 570px;
+    object-fit: cover;
+    position: absolute;
+}
+.racerpro{
+    width: 50%;
+    height: 570px;
+    object-fit: cover;
+    position: absolute;
+}
+.viper{
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    padding-top: 60px;
+    font-size: 38px;
+    line-height: 1px;
+    font-weight: initial;
+}
+.thepro{
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: initial;
+    line-height: 1px;
+}
+.godtier{
+    position: relative;
+    color: white;
+    font-family: roboto;
+    font-size: larger;
+    line-height: 1px;
+    font-weight: initial;
+}
+.p{
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    cursor: pointer;
+    text-align: end;
+}
+.q{
+    position: relative;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    cursor: pointer;
+    text-align: start;
+    padding-left: 28px;
+    
+}
+.q:hover{
+    text-decoration: underline;
+}
+.p:hover{
+    text-decoration: underline;
+}
+.body5inner{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.body5innerdiv1{
+    position: relative;
+    width: 50%;
+}
+.body5innerdiv2{
+    position: relative;
+    width: 50%;
+}
+.contentbody6{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    width: 100%;
+    height: 300x;
+    background-color: rgb(19, 17, 17);
+    display: flex;
+    justify-content: center;
+}
+.innerbottom{
+    width: 1194px;
+    height: 280px;
+    background-color:rgb(19, 17, 17) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.bottom1{
+    display: flex;
+    flex-direction: column ;
+    color: white;
+}
+.a1{
+text-decoration: none;
+color: #6c7079;
+padding-top: 10px;
+}
+.a2{
+    text-decoration: none;
+    color: #6c7079;
+    padding-top: 10px;
+}
+.bottom2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.bottom3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.a3{
+    text-decoration: none;
+    color: #6c7079;
+    padding-top: 10px;
+}
+.bottom4{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.a4{
+    text-decoration: none;
+    color: #6c7079;
+    padding-top: 10px;
+}
+.bottom5{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.bottom6{
+    color: green;
+}
+.lastline{
+    display: flex;
+    flex-direction: row;
+}
+.bottomline{
+    width: 1194px;
+    height: 100px;
+    background-color: aqua;
+}
+.bottomend{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+hr{
+    margin: 0;
+}
+.reward span:hover{
+    text-decoration: underline;
+}
+.bottomenddiv1{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(19, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+.bottomenddiv2{
+    width: 30%;
+    height: 100%;
+    background-color: #6c7079;
+}
+.sitemap{
+    columns: #888;
+    margin-left: 20px;
+}
+.map{
+    text-decoration: none;
+    cursor: pointer;
+    color: #6c7079;
+}
+.map:hover{
+    text-decoration: underline;
+}
+.allright{
+    text-decoration: none;
+    color: #6c7079;
+}
+.bottomenddiv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 17, 17);
+}
+.united{
+    color: white;
+    text-decoration: none;
+}
+.changelocation{
+    text-decoration: none;
+    color: #888;
+}
+.changelocation:hover{
+    text-decoration: underline ;
+    
+}
+
