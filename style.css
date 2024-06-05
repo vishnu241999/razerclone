@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: roboto;
 }
 .header{
     width: 100%;
@@ -10,6 +11,8 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    border-bottom: green solid;
+    border-width: 2px;
 }
 .subheader{
     width: 1200px;
@@ -25,9 +28,10 @@ body{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    font-family: roboto;
 }
 .razerclass:hover{
-    text-decoration: underline;
+    color: white;
 }
 .razerstore{
     display: flex;
@@ -64,6 +68,7 @@ body{
 .reward{
     color: white;
     text-decoration: none;
+    font-size: small;
 }
 .contentbody{
     width: 100%;
@@ -453,11 +458,13 @@ align-items: center;
 text-decoration: none;
 color: #6c7079;
 padding-top: 10px;
+font-size: small;
 }
 .a2{
     text-decoration: none;
     color: #6c7079;
     padding-top: 10px;
+    font-size: small;
 }
 .bottom2{
     display: flex;
@@ -473,6 +480,7 @@ padding-top: 10px;
     text-decoration: none;
     color: #6c7079;
     padding-top: 10px;
+    font-size: small;
 }
 .bottom4{
     display: flex;
@@ -483,6 +491,7 @@ padding-top: 10px;
     text-decoration: none;
     color: #6c7079;
     padding-top: 10px;
+    font-size: small;
 }
 .bottom5{
     display: flex;
@@ -537,6 +546,7 @@ hr{
     text-decoration: none;
     cursor: pointer;
     color: #6c7079;
+    font-size: small;
 }
 .map:hover{
     text-decoration: underline;
@@ -544,6 +554,7 @@ hr{
 .allright{
     text-decoration: none;
     color: #6c7079;
+    font-size: small;
 }
 .bottomenddiv2{
     display: flex;
@@ -555,10 +566,12 @@ hr{
 .united{
     color: white;
     text-decoration: none;
+    font-size: small;
 }
 .changelocation{
     text-decoration: none;
     color: #888;
+    font-size: small;
 }
 .changelocation:hover{
     text-decoration: underline ;
